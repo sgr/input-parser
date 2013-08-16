@@ -5,6 +5,7 @@
 
 (deftest a-test
   (testing "NIL"
+    (is (= [] (tokenize nil)))
     (is (= [] (tokenize "")))
     (is (= [] (tokenize " ")))
     (is (= [] (tokenize "  ")))

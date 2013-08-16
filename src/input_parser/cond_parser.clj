@@ -89,5 +89,6 @@
 	:else                 #(in-quote (rest src) stack (conj token (first src)))))
 
 (defn parse [^String s]
-  (binding [*len* (.length s)]
-    (trampoline in-space (char-array s) '([]) [])))
+  (when s
+    (binding [*len* (.length s)]
+      (trampoline in-space (char-array s) '([]) []))))

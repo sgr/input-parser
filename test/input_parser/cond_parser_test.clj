@@ -6,6 +6,7 @@
 
 (deftest a-test
   (testing "NIL LIST"
+    (is (= nil (parse nil)))
     (is (= nil (parse "")))
     (is (= nil (parse " ")))
     (is (= nil (parse "　")))
