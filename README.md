@@ -8,7 +8,7 @@ A Clojure library designed to parse string entered by user.
 input-parser is available in [Clojars.org](https://clojars.org/input-parser).
 Your leiningen project.clj:
 
-  [input-parser "0.1.0"]
+  [input-parser "0.1.1"]
 
 ## Usage
 
