@@ -5,7 +5,7 @@ A Clojure library designed to parse string entered by user.
 
 ## Install
 
-config-file is available in [Clojars.org](https://clojars.org/input-parser).
+input-parser is available in [Clojars.org](https://clojars.org/input-parser).
 Your leiningen project.clj:
 
   [input-parser "0.1.0"]
