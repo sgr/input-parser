@@ -1,5 +1,6 @@
 input-parser
 ============
+[![CI Status](http://img.shields.io/travis/sgr/input-parser.svg?style=flat)](https://travis-ci.org/sgr/input-parser)
 
 A Clojure library designed to parse string entered by user.
 
